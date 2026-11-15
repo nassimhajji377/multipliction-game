@@ -4,7 +4,7 @@ const CONFIG = {
   credit: '',                    // مثال: 'فكرة وإنجاز: اسمك'
   heroName: 'البطل',
   heroImage: 'assets/hero.svg',  // استبدل الصورة بصورتك (نفس المسار أو غيّره هنا)
-  logoImage: 'assets/logo.svg',
+  logoImage: 'assets/logo.png',
   chequeTitle: 'شيك الإنجاز',
   questionsToWin: 10,            // عدد الإجابات الصحيحة للفوز
   secondsPerQuestion: 4,         // الوقت لكل سؤال

@@ -367,7 +367,7 @@ const CONFIG = {
     if (k) press(k.dataset.k);
   });
   el.backBtn.addEventListener('click', back);
-  el.homeBtn.addEventListener('click', goHome);
+  el.homeBtn.addEventListener('click', () => { location.href = 'index.html'; });
   el.startBtn.addEventListener('click', start);
   el.again1.addEventListener('click', start);
   el.again2.addEventListener('click', start);

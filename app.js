@@ -1,14 +1,14 @@
 console.log('multiplication-game v4');
 /* ===== إعدادات اللعبة — عدّل هنا بحرية ===== */
 const CONFIG = {
-  title: 'أنقذوا البطل بجدول الضرب',
+  title: 'أنقذوا بريمو بجدول الضرب',
   credit: '',                    // مثال: 'فكرة وإنجاز: اسمك'
-  heroName: 'البطل',
-  heroImage: 'assets/hero.svg',  // استبدل الصورة بصورتك (نفس المسار أو غيّره هنا)
+  heroName: 'بريمو',
+  heroImage: 'assets/hero.png',  // استبدل الصورة بصورتك (نفس المسار أو غيّره هنا)
   logoImage: 'assets/logo.png',
   chequeTitle: 'شيك الإنجاز',
   chequeImage: 'assets/cheque-template.jpg', // قالب الشيك
-  chequeReason: 'أنقذوا البريمو من الغرق بجدول الضرب',
+  chequeReason: 'أنقذوا بريمو من الغرق بجدول الضرب',
   questionsToWin: 10,            // عدد الإجابات الصحيحة للفوز
   secondsPerQuestion: 4,         // الوقت لكل سؤال
   maxWater: 1000,                // مستوى الغرق (ml)
